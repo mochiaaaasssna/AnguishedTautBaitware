@@ -1,0 +1,5 @@
+const express = require('express')
+const app = express()
+const fs = require('fs')
+const users = JSON.parse(fs.readFileSync('./database/users.json'))
+const bannedID = JSON.parse(fs.readFileSync('./database/users.json'))
