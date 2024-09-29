@@ -16,6 +16,3 @@ function readFile(filename)
         print("Error: Can't found file.")
 end
 end
-function loginMenu()
-    x = gg.prompt({"Username: "}, nil, {"text"})
-    
